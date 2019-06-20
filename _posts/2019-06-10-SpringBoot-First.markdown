@@ -1,24 +1,31 @@
 ---
-layout: post
-title: "Spring Boot环境搭建"
-subtitle: 'SpringBoot教程'
-author: "XuXinwei"
-header-style: text
+
+layout:    post
+title:     "Spring Boot环境搭建"
+subtitle:  "SpringBoot教程先导章"
+date:      2019-6-10
+author:    "XuXinwei"
+header-img:"img/post-bg-digital-native.jpg"
+catalog:   true
 tags:
   - SpringBoot
   - b
   - c
 ---
-<font size="5"> Spring Boot开发环境：</font>
+
+> 刚刚接触SpringBoot，对于SpringBoot知之甚少，特此开此博客记录SpringBoot学习路。
+## Spring Boot开发环境：
 1. jdk配置
 2. eclipse安装
 3. Gradle的安装配置
 4. STS安装
-<font size="5"> 创建Spring Boot简单实例:</font>
+
+## 创建Spring Boot简单实例:
 1. 首先创建一个Gradel的项目；
 2. 随后针对项目的build.gradel文件进行配置；
 3. 最后在xxxApplication.java所在目录下进行创建包进行项目的编写即可
-<font size="5"> Gradle配置:</font>
+
+## Gradle配置详解：
 ```
 plugins {
 	id 'org.springframework.boot' version '2.1.5.RELEASE'
@@ -41,7 +48,8 @@ dependencies {
 }
 
 ```
-<font size="5">启动类:</font>
+
+## 启动类代码展示:
 ```
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -56,7 +64,8 @@ public class SpringBootDemoApplication {
 }
 
 ```
-<font size="5">测试小例子:</font>
+
+## 测试小例子:
 ```
 @RestController
 public class Example {
@@ -67,7 +76,7 @@ public class Example {
 }
 ```
 > 其中注意RestController和Controller的区别，如果使用Controller还需要配合ResponseBody一起使用.
-<font size="5">浏览器测试:</font>
+
+## 浏览器测试:
 1. 在浏览器中输入http://localhost:8080即可看到运行结果
 2.  如果在application.properties中设置了server.context-path=/spring-boot/，那么需要在浏览器中输入http://localhost:8080/spring-boot/
-
