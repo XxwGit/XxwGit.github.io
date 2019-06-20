@@ -6,6 +6,8 @@ author: "XuXinwei"
 header-style: text
 tags:
   - SpringBoot
+  - b
+  - c
 ---
 <font size="5"> Spring Boot开发环境：</font>
 1. jdk配置
