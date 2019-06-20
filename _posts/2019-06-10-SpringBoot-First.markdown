@@ -1,5 +1,4 @@
 ---
-
 layout:    post
 title:     "Spring Boot环境搭建"
 subtitle:  "SpringBoot教程先导章"
@@ -8,9 +7,9 @@ author:    "XuXinwei"
 header-img:"img/post-bg-digital-native.jpg"
 catalog:   true
 tags:
-  - SpringBoot
-  - b
-  - c
+  	 - SpringBoot
+ 	 - b
+ 	 - c
 ---
 
 > 刚刚接触SpringBoot，对于SpringBoot知之甚少，特此开此博客记录SpringBoot学习路。
