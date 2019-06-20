@@ -5,7 +5,6 @@ subtitle:  "SpringBoot教程先导章"
 date:      2019-6-10
 author:    "XuXinwei"
 header-img:"img/post-bg-digital-native.jpg"
-catalog:   true
 tags:
   	 - SpringBoot
  	 - b
