@@ -1,13 +1,15 @@
 ---
 layout: post
-title:"Spring Boot环境搭建"
-subtitle:"SpringBoot教程先导章"
-author:"XuXinwei"
-header-img:"img/post-bg-digital-native.jpg"
+title: "「知乎」为什么 CSS 这么难学？"
+subtitle: "Why I dislike CSS as a programming language"
+author: "Hux"
+header-img: "img/post-bg-css.jpg"
+header-img-credit: "@WebdesignerDepot"
+header-img-credit-href: "medium.com/@WebdesignerDepot/poll-should-css-become-more-like-a-programming-language-c74eb26a4270"
+header-mask: 0.4
 tags:
-  	 - SpringBoot
- 	 - b
- 	 - c
+  - Web
+  - CSS
 ---
 
 > 刚刚接触SpringBoot，对于SpringBoot知之甚少，特此开此博客记录SpringBoot学习路。
