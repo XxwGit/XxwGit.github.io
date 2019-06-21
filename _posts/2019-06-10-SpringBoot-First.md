@@ -1,9 +1,8 @@
 ---
-layout:    post
-title:     "Spring Boot环境搭建"
-subtitle:  "SpringBoot教程先导章"
-date:      2019-6-10
-author:    "XuXinwei"
+layout: post
+title:"Spring Boot环境搭建"
+subtitle:"SpringBoot教程先导章"
+author:"XuXinwei"
 header-img:"img/post-bg-digital-native.jpg"
 tags:
   	 - SpringBoot
