@@ -11,6 +11,7 @@ tags:
   - Spring
   - SpringBoot
   - 微服务框架
+  - SpringCloud
 ---
 
 > 刚刚接触SpringBoot，对于SpringBoot知之甚少，特此开此博客记录SpringBoot学习路。
