@@ -3,7 +3,7 @@ layout: post
 title: "Spring Boot环境搭建"
 subtitle: "SpringBoot到底应该怎样学？"
 author: "XXW"
-header-img: "img/post-bg-css.jpg"
+header-img: "img/post-bg-2015.jpg"
 header-img-credit: "@WebdesignerDepot"
 header-img-credit-href: "medium.com/@WebdesignerDepot/poll-should-css-become-more-like-a-programming-language-c74eb26a4270"
 header-mask: 0.4
