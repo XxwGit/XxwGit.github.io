@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- maven model version -->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- project group id & artifact id -->
+    <groupId>com.freesoft.mvn-webapp</groupId>
+    <artifactId>mvnwebapp</artifactId>
+    <!-- packing type -->
+    <packaging>war</packaging>
+    <!-- version -->
+    <version>1.0-SNAPSHOT</version>
+    <name>mvnwebapp Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+
+    <dependencies>
+
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <finalName>mvnwebapp</finalName>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>2.1</version>
+                    <configuration>
+                        <tomcat-url>http://localhost:8080/manager/html</tomcat-url>
+                        <server>tomcat_localtest</server>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <properties>
+        <struts.version>2.3.15</struts.version>
+        <mysql.version>5.1.29</mysql.version>
+        <hibernate.version>4.3.1.Final</hibernate.version>
+    </properties>
+</project>
