@@ -23,11 +23,6 @@ Github是目前世界上最先进的分布式版本控制系统。
 #### 使用命令将文件上传github
 #### 使用命令更新Github代码步骤
 #### 使用命令回退版本
-### GithubDest
-=======
+### GithubDesktop的使用教程
 
-### Github使用
-#### 使用命令将文件上传github
-#### 使用命令更新Github代码步骤
->>>>>>> 41b0eafe9825f259b40bc4db5a9104246f4bd57d
 ### 总结
