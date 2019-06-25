@@ -1,7 +1,7 @@
-﻿# Site settings
+﻿ # Site settings
 title: PersonBlog of XXW
 SEOTitle: 徐新伟的博客 | XXW Blog
-header-img: img/home-bg.jpg
+header-img:img/home-bg.jpg
 email: 18790562971@163.com
 description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @徐新伟 的个人博客，与你一起发现更大的世界。"
 keyword: "徐新伟, XxwGit, java, 徐新伟的博客, Xxw Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     汝独守一座空城
+weibo_username:     5220740147
 zhihu_username:     shen-zhu-wen
 github_username:    XxwGit
 #twitter_username:   huxpro
