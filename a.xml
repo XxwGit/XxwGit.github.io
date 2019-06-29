@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<idcMonitor> 
+  <commandId>201020000000169282</commandId>  
+  <idcId>1019</idcId>  
+  <monitorState>1</monitorState>  
+  <houseMonitor> 
+    <id>123</id>  
+    <ip>10.2.45.123</ip>  
+    <port>100</port>  
+    <domain>www.sina.com</domain>  
+    <serviceType>1</serviceType>  
+    <firstFound>2013-08-21 12:33:22</firstFound>  
+    <lastFound>2013-08-21 13:00:00</lastFound>  
+    <illegalInfo> 
+      <illegalType>1</illegalType>  
+      <currentState>1</currentState>  
+      <user>admin</user> 
+    </illegalInfo>  
+    <ipInfo> 
+      <icpError>0</icpError>  
+      <regError>1</regError>  
+      <regDomain>www.baidu.com</regDomain> 
+    </ipInfo> 
+  </houseMonitor>  
+  <houseMonitor> 
+    <id>456</id>  
+    <ip>10.2.45.456</ip>  
+    <port>200</port>  
+    <domain>www.baidu.com</domain>  
+    <serviceType>3</serviceType>  
+    <firstFound>2013-08-29 12:33:22</firstFound>  
+    <lastFound>2013-08-30 13:00:00</lastFound>  
+    <illegalInfo> 
+      <illegalType>2</illegalType>  
+      <currentState>2</currentState>  
+      <user>admin2</user> 
+    </illegalInfo>  
+    <ipInfo> 
+      <icpError>1</icpError>  
+      <regError>2</regError>  
+      <regDomain>www.ambimmort.com</regDomain> 
+    </ipInfo> 
+  </houseMonitor>  
+  <timeStamp>2013-08-22 12:57:13</timeStamp> 
+</idcMonitor>
